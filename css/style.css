@@ -1,0 +1,156 @@
+
+.custom-navbar {
+  max-width: 1240px;
+  margin: 42px auto 0;
+  padding: 0 15px;
+}
+
+.custom-section {
+  max-width: 1240px;
+  margin: 210px auto 0;
+  border-radius: 20px;
+  padding: 40px;
+}
+.navbar-nav {
+  gap: 40px;
+}
+
+.featuredin {
+  margin-top: 50px;
+}
+
+.impact-number {
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 0;
+}
+
+.rounded-20 {
+  border-radius: 20px !important;
+}
+
+/* win win section */
+.custom-heading {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.custom-card {
+  width: 550px;
+  height: 500px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.card-img-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-card {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.text-card h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-card p {
+  color: #555;
+}
+
+.section-container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1240px) {
+  .custom-card{
+    width: 450px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .custom-card{
+    width: 350px;
+    height: 650px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-card{
+    width: 370px;
+    height: 633px;
+
+  }
+}
+/* win win section end */
+
+/* slider section */
+
+.custom-btn {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #000;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.custom-btn span {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.custom-nav {
+  margin-top: 50px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: static;  
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important;
+}
+
+
+
+.slide-card{
+  width: 275px; 
+  height: 250px; 
+  border-radius: 20px; 
+  overflow: hidden;
+}
+.slide-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+ 
+/* slider section */
