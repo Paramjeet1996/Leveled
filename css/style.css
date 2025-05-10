@@ -101,7 +101,6 @@
 /* win win section end */
 
 /* slider section */
-
 .custom-btn {
   width: 50px;
   height: 50px;
@@ -137,8 +136,6 @@
   display: none !important;
 }
 
-
-
 .slide-card{
   width: 275px; 
   height: 250px; 
@@ -149,8 +146,68 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} 
+/* slider section end*/
 
-
+/* how it works */
  
-/* slider section */
+  .highlighted-row-heading {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 100%;
+  }
+
+  .unique-highlight-wrapper {
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+  }
+
+  .highlighted-card-box {
+    text-align: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+  }
+
+  .highlighted-card {
+    width: 191px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    min-width: 191px;
+  }
+
+  .highlighted-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .active-highlighted {
+    width: 830px !important;
+    min-width: 830px !important;
+    margin: 0 10px;
+  }
+  .highlighted-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 992px) {
+    .unique-highlight-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .highlighted-card,
+    .active-highlighted {
+      width: 100% !important;
+      height: auto;
+    }
+  }
+ 
+/* how it works end */

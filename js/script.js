@@ -1,3 +1,5 @@
+
+// slider section
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 20,
@@ -18,4 +20,19 @@ var swiper = new Swiper(".mySwiper", {
       },
     },
   });
+//slider sections end
+
+//how it works
+function activateCard(cardId) {
+    const allBoxes = document.querySelectorAll('.highlighted-card-box');
+    allBoxes.forEach((box, index) => {
+      const card = box.querySelector('.highlighted-card');
+      if ((index + 1) === cardId) {
+        card.classList.add('active-highlighted');
+      } else {
+        card.classList.remove('active-highlighted');
+      }
+    });
+  }
+  //how it works
   
